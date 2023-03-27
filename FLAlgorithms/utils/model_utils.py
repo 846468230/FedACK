@@ -250,7 +250,7 @@ def get_dataset_name(dataset):
 def create_generative_model(dataset, algorithm='', embedding=False,visualize_boundary=False):
     # passed_dataset=get_dataset_name(dataset)
     passed_dataset = dataset
-    assert any([alg in algorithm for alg in ['FedGKD', 'FedGen']])
+    assert any([alg in algorithm for alg in ['FedACK', 'FedGen']])
     if 'FedGen' in algorithm:
         # temporary roundabout to figure out the sensitivity of the generator network & sampling size
         if 'cnn' in algorithm:
