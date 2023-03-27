@@ -10,4 +10,28 @@ The implementation of server-side and client-side code for federated learning is
 The codes stored in infer,  loss, util, and model directories are used to train cross-lingual module.
 
 The main.py is used for training FL module for social bots detection.
+```python
+python main.py
+```
+To train the federated bot detection codes.
+
 The train.py is used for pre-traing cross-lingual module.
+
+As for the processed data please contact us and attach the information about your organization and the purpose of the data. 
+The download data contains a datas directory containing processed data files, and a train_gpu3_warmup8000_latent256_kl800000_split1.0 directory contains a pre-trained cross-lingual model.
+
+# Model
+![Model Structure](assets/model.png)
+
+# Results
+
+![Main Results](assets/main_results.png)
+
+# Citation
+```
+Coming Soon!
+```
+
+---
+
+Have a nice day.
