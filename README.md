@@ -17,15 +17,15 @@ To train the federated bot detection codes.
 
 The train.py is used for pre-traing cross-lingual module.
 
-As for the processed data please contact us and attach the information about your organization and the purpose of the data. 
+As for the processed data please contact us [email](mailto:dao@mail.ustc.edu.cn) and attach the information about your organization and the purpose of the data. 
 The download data contains a datas directory containing processed data files, and a train_gpu3_warmup8000_latent256_kl800000_split1.0 directory contains a pre-trained cross-lingual model.
 
 # Model
-![Model Structure](assets/model.png)
+![Model Structure](model.png)
 
 # Results
 
-![Main Results](assets/main_results.png)
+![Main Results](result.png)
 
 # Citation
 ```
